@@ -176,14 +176,6 @@ mallet_lda_model.save(temp_file)
 #                                            per_word_topics=True)
 
 
-# f = open("../AnimalsByCountry/" + origin + ".txt", "w")
-# f.write(str(hash_animals))
-# f.close()
-# wc = WordCloud(background_color="white", width=1000, height=1000, max_words=100, relative_scaling=0.5,
-#                normalize_plurals=False)
-# # wc.to_file(origin + '.png')
-
-
 def generate_distribution_among_country(country_corpus, unique_origins, lda_model):
     """
     :param country_corpus: list of tuples: (origin, corpus)
