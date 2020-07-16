@@ -29,7 +29,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 from nltk.corpus import stopwords
 
 stop_words = stopwords.words('english')
-stop_words.extend(['from', 'subject', 're', 'edu', 'use'])
+
 
 # Import Dataset
 df = pd.read_csv("tales-csv (1).csv")
