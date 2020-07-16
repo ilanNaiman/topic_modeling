@@ -114,3 +114,7 @@ Tools:
   Numpy
   NLTK
   Matplotlib
+  
+ Gensim provides a wrapper to implement Mallet’s LDA from within Gensim itself. You only need to download the zipfile,
+ http://mallet.cs.umass.edu/dist/mallet-2.0.8.zip
+ unzip it and provide the path to mallet in the unzipped directory to gensim.models.wrappers.LdaMallet
